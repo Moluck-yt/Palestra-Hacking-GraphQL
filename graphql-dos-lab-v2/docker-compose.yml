@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  graphql-vuln:
+    build: .
+    container_name: graphql-dos-lab-logged
+    ports:
+      - "4000:4000"
+    restart: unless-stopped
+    # Remove log limits para ver tudo
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "100m"
+        max-file: "3"
