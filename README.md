@@ -50,18 +50,4 @@ python3 exploit.py 3 100
 python3 exploit.py 5
 ```
 
------
-
-*Hakai Security Pentest Team*
-
-````
-
-### 2. Suba o README para o GitHub
-
-No seu terminal, rode:
-
-```bash
-git add README.md
-git commit -m "Adicionando documentação da palestra"
-git push
 ````
