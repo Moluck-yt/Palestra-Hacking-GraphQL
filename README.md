@@ -1,6 +1,3 @@
-### 1\. Crie o arquivo `README.md`
-
-Crie um arquivo chamado `README.md` na pasta `DoS-Graphql` e cole o seguinte conteúdo:
 
 ````markdown
 # Palestra: Hacking GraphQL - O Custo da Flexibilidade
